@@ -1,0 +1,80 @@
+1 body {
+2  width: 100%;
+3  height: 100vh;
+4  margin: 0;
+5  background-color: #1b1b32;
+6  color: #f5f6f7;
+7  font-family: Tahoma;
+8  font-size: 16px;
+9 }
+10
+11 h1, p {
+12  margin: 1em auto;
+13  text-align: center;
+14 }
+15
+16 form {
+17  width: 60vw;
+18  max-width: 500px;
+19  min-width: 300px;
+20  margin: 0 auto;
+21  padding-bottom: 2em;
+22 }
+23
+24 fieldset {
+25  border: none;
+26  padding: 2rem 0;
+27  border-bottom: 3px solid #3b3b4f;
+28 }
+29
+30 fieldset:last-of-type {
+31  border-bottom: none;
+32 }
+33
+34 label {
+35  display: block;
+36  margin: 0.5rem 0;
+37 }
+38
+39 input,
+40 textarea,
+41 select {
+42  margin: 10px 0 0 0;
+43  width: 100%;
+44  min-height: 2em;
+45 }
+46
+47 input, textarea {
+48  background-color: #0a0a23;
+49  border: 1px solid #0a0a23;
+50  color: #ffffff;
+51 }
+52
+53 .inline {
+54  width: unset;
+55  margin: 0 0.5em 0 0;
+56  vertical-align: middle;
+57 }
+58
+59 input[type="submit"] {
+60  display: block;
+61  width: 60%;
+62  margin: 1em auto;
+63  height: 2em;
+64  font-size: 1.1rem;
+65  background-color: #3b3b4f;
+66  border-color: white;
+67  min-width: 300px;
+68 }
+69
+70 input[type="file"] {
+71  padding: 1px 2px;
+72 }
+73
+74 .inline{
+75  display: inline; 
+76 }
+77
+78 a {
+79  color: #dfdfe2;
+80 }
